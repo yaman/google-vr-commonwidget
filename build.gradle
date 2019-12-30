@@ -8,7 +8,7 @@ publishing {
     publications {
         rteditor(MavenPublication) {
             groupId 'com.github.yaman'
-            artifactId 'commonwidget'
+            artifactId 'google-vr-commonwidget'
             version '0.0.1-SNAPSHOT'
             artifact("$rootDir/commonwidget.aar")
         }
